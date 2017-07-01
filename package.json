@@ -1,0 +1,41 @@
+{
+  "name": "react-smart-selector",
+  "version": "0.0.2",
+  "description": "Selection component that can alter itself based on number of selections",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "test": "test",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Velveeta/react-smart-selector.git"
+  },
+  "keywords": [
+    "react",
+    "smart",
+    "select",
+    "dropdown",
+    "multiple"
+  ],
+  "author": "Richard Lindsey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Velveeta/react-smart-selector/issues"
+  },
+  "homepage": "https://github.com/Velveeta/react-smart-selector#readme",
+  "devDependencies": {
+    "@storybook/cli": "^3.1.6",
+    "@storybook/react": "^3.1.7",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
